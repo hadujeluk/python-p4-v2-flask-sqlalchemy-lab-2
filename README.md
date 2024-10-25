@@ -54,7 +54,7 @@ from `db.Model`. Add the following attributes to the `Review` model:
 - a column named `comment` to store a string.
 - a column named `customer_id` that is a foreign key to the `'customers'` table.
 - a column named `item_id` that is a foreign key to the `'items'` table.
-- a relationship named `customer` that establishes a relationship with the
+- a relationship named `customer` that establishe s a relationship with the
   `Customer` model. Assign the `back_populates` parameter to match the property
   name defined to the reciprocal relationship in `Customer`.
 - a relationship named `item` that establishes a relationship with the `Item`
